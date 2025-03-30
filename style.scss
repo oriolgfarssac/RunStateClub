@@ -86,9 +86,9 @@ body {
         font-size: 24px;
         font-weight: 400;
         color: #000000;
-        text-align: left;
+        text-align: justify;
         margin-bottom: 0px;
-
+        
         &-wrapper{
             display: flex;
             justify-content: center;
@@ -186,9 +186,9 @@ body {
         font-size: 24px;
         font-weight: 400;
         color: #000000;
-        text-align: left;
+        text-align: justify;
         margin-bottom: 0px;
-
+        
         &-wrapper{
             display: flex;
             justify-content: center;
@@ -249,9 +249,9 @@ body {
         font-size: 24px;
         font-weight: 400;
         color: #000000;
-        text-align: left;
+        text-align: justify;
         margin-bottom: 0px;
-
+        
         &-wrapper{
             display: flex;
             justify-content: center;
@@ -277,6 +277,10 @@ body {
         justify-content: center;
         align-items: center;
         width: 50%;
+
+        iframe{
+            width: 100% !important;
+        }
 
         @media screen and (max-width: 991px) {
 

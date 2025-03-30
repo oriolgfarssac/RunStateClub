@@ -72,7 +72,7 @@ body {
   font-size: 24px;
   font-weight: 400;
   color: #000000;
-  text-align: left;
+  text-align: justify;
   margin-bottom: 0px;
 }
 .c-hero__text-wrapper {
@@ -163,7 +163,7 @@ body {
   font-size: 24px;
   font-weight: 400;
   color: #000000;
-  text-align: left;
+  text-align: justify;
   margin-bottom: 0px;
 }
 .c-text__text-wrapper {
@@ -220,7 +220,7 @@ body {
   font-size: 24px;
   font-weight: 400;
   color: #000000;
-  text-align: left;
+  text-align: justify;
   margin-bottom: 0px;
 }
 .c-strava__text-wrapper {
@@ -245,6 +245,9 @@ body {
   justify-content: center;
   align-items: center;
   width: 50%;
+}
+.c-strava__embed-wrapper iframe {
+  width: 100% !important;
 }
 @media screen and (max-width: 991px) {
   .c-strava__embed-wrapper {
