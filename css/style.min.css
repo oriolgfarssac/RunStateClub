@@ -131,7 +131,7 @@ body {
   justify-content: center;
   height: -moz-fit-content;
   height: fit-content;
-  min-height: 20vh;
+  min-height: 50vh;
   gap: 40px;
   padding-block: 30px;
 }
